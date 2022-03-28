@@ -38,15 +38,6 @@ const SearchBox = styled.div`
   width: 50%;
   background-color: white;
 `;
-const SearchIcon = styled.img`
-  width: 32px;
-  height: 32px;
-`;
-const MovieImage = styled.img`
-  width: 48px;
-  height: 48px;
-  margin: 15px;
-`;
 const SearchInput = styled.input`
   color: black;
   font-size: 16px;
@@ -62,12 +53,6 @@ const MovieListContainer = styled.div`
   padding: 30px;
   gap: 25px;
   justify-content: space-evenly;;
-`;
-const Placeholder = styled.img`
-  width: 120px;
-  height: 120px;
-  margin: 150px;
-  opacity: 50%;
 `;
 
 function App() {
